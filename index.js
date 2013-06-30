@@ -86,6 +86,7 @@ require('./agent')(app);
 
 require('./blog')(app);
 require('./builder')(app);
+require('./search')(app);
 
 app.use(app.router);
 
